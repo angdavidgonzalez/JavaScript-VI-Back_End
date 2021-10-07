@@ -15,7 +15,7 @@ function mostrarRedes( RedesSociales ){
   nodoMostrarIconos.innerHTML = "";
 
   for (var i = 0; i < RedesSociales.length; i++) {
-    contenidoAMostrar = contenidoAMostrar + '<div id = "ciudades' + i + '">';
+    contenidoAMostrar = contenidoAMostrar + '<nav class="socialmediaicons"></nav>';
     contenidoAMostrar += `<a href="' + RedesSociales[id] + '">' +
         '<img src="images/' + id + '.png" alt="icon for '+id+'">' +
         '</a>`;
